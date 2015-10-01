@@ -1,6 +1,7 @@
- -- COMPLETE DATE
-SELECT SYSDATE FROM DUAL;
+-- COMPLETE DATE
+SELECT SYSDATE FROM DUAL; -- COMPLETE DATE
 select TO_CHAR(sysdate, 'DL') from dual; -- DATE COMPLETE EXTENDED
+select TO_CHAR(sysdate, 'DS') from dual; -- DATE COMPLETE ONE DIGIT ON DAY
  -- DAY
 select TO_CHAR(sysdate, 'D') from dual; -- DAY OF THE WEEK (1-7)
 select TO_CHAR(sysdate, 'DD') from dual; -- DAY OF MONTH (1-31)
@@ -35,7 +36,8 @@ select TO_CHAR(sysdate, 'IYY') from dual; -- LAST THREE DIGITS OF YEAR (ISO)
 select TO_CHAR(sysdate, 'IYYY') from dual; -- LAST FOUR DIGITS OF YEAR (ISO)
  -- CENTURY
 select TO_CHAR(sysdate, 'CC') from dual; -- CENTURY (NUMBER)
-select TO_CHAR(sysdate, 'SCC') from dual; -- 
+select TO_CHAR(sysdate, 'SCC') from dual; -- CENTURY (NUMBER)
  -- BC INDICATOR
-select TO_CHAR(sysdate, 'BC') from dual; -- 
-select TO_CHAR(sysdate, 'B.C.') from dual; -- 
+select TO_CHAR(sysdate, 'BC') from dual; -- BC OR DC
+select TO_CHAR(sysdate, 'B.C.') from dual; -- BC OR DC
+
