@@ -8,3 +8,5 @@ select to_char(sysdate,'HH12') from dual;
 
  -- ZONE TIME
 select dbtimezone,sessiontimezone from dual;
+
+--Add more time functions...
