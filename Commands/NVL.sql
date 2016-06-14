@@ -4,4 +4,5 @@ DECLARE
 BEGIN
   DBMS_OUTPUT.PUT_LINE (NVL(VAR, 'EMPTY'));
 END;
-Querry out: EMPTY
+
+-- Querry out: EMPTY
